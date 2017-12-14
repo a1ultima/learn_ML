@@ -8,89 +8,107 @@ Topics covered organised into file structure, directories with the suffix "_andy
 
 **Part 1. Data Preprocessing**
 
-	- Data Preprocessing
+- Data Preprocessing
 
-	- Machine Learning A-Z Template Folder
+- Machine Learning A-Z Template Folder
 
 
 
 **Part 2. Regression**
 
-	- Simple Linear Regression
+- Simple Linear Regression
 
-	- Multiple Linear Regression
+- Multiple Linear Regression
 
-	- Polynomial Regression
+- Polynomial Regression
 
-	- Support Vector Regression (SVR)
+- Support Vector Regression (SVR)
 
-	- Decision Tree Regression
+- Decision Tree Regression
 
-	- Random Forest Regression
+- Random Forest Regression
 
-	- Evaluating Regression Models Performance
+- Evaluating Regression Models Performance
 
-	- Regularization Methods
+- Regularization Methods
+
+
 
 **Part 3. Classification**
 
-	- Logistic Regression
+- Logistic Regression
 
-	- K-Nearest Neighbors (K-NN)
+- K-Nearest Neighbors (K-NN)
 
-	- Support Vector Machine (SVM)
+- Support Vector Machine (SVM)
 
-	- Kernel SVM
+- Kernel SVM
 
-	- Naive Bayes
+- Naive Bayes
 
-	- Decision Tree Classification
+- Decision Tree Classification
 
-	- Random Forest Classification
+- Random Forest Classification
 
-	- Evaluating Classification Models Performance
+- Evaluating Classification Models Performance
+
+
 
 **Part 4. Clustering**
 
-	- K-Means Clustering
+- K-Means Clustering
 
-	- Hierarchical Clustering
+- Hierarchical Clustering
+
+
 
 **Part 5. Association Rule Learning**
 
-	- Apriori
+- Apriori
 
-	- Eclat
+- Eclat
+
+
 
 **Part 6. Reinforcement Learning**
 
-	- Upper Confidence Bound (UCB)
+- Upper Confidence Bound (UCB)
 
-	- Thompson Sampling
+- Thompson Sampling
+
+
 
 **Part 7. Natural Language Processing**
 
-	- Natural Language Processing Algorithms
+- Natural Language Processing Algorithms
+
+
 
 **Part 8. Deep Learning**
 
-	- Artificial Neural Networks (ANN)
+- Artificial Neural Networks (ANN)
 
-	- Convolutional Neural Networks (CNN)
+- Convolutional Neural Networks (CNN)
+
+
 
 **Part 9. Dimensionality Reduction**
 
-	- Principal Component Analysis (PCA)
+- Principal Component Analysis (PCA)
 
-	- Linear Discriminant Analysis (LDA)
+- Linear Discriminant Analysis (LDA)
 
-	- Kernel PCA
+- Kernel PCA
+
+- 
 
 **Part 10. Model Selection**
 
-	- Model Selection 
+- Model Selection 
 
-	- XGBoost
+- XGBoost
+
+
 
 
 
