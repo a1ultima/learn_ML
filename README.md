@@ -32,8 +32,6 @@ Topics covered organised into file structure, directories with the suffix "_andy
 
 	- Regularization Methods
 
-
-
 **Part 3. Classification**
 
 	- Logistic Regression
@@ -52,15 +50,11 @@ Topics covered organised into file structure, directories with the suffix "_andy
 
 	- Evaluating Classification Models Performance
 
-
-
 **Part 4. Clustering**
 
 	- K-Means Clustering
 
 	- Hierarchical Clustering
-
-
 
 **Part 5. Association Rule Learning**
 
@@ -68,29 +62,21 @@ Topics covered organised into file structure, directories with the suffix "_andy
 
 	- Eclat
 
-
-
 **Part 6. Reinforcement Learning**
 
 	- Upper Confidence Bound (UCB)
 
 	- Thompson Sampling
 
-
-
 **Part 7. Natural Language Processing**
 
 	- Natural Language Processing Algorithms
-
-
 
 **Part 8. Deep Learning**
 
 	- Artificial Neural Networks (ANN)
 
 	- Convolutional Neural Networks (CNN)
-
-
 
 **Part 9. Dimensionality Reduction**
 
@@ -99,8 +85,6 @@ Topics covered organised into file structure, directories with the suffix "_andy
 	- Linear Discriminant Analysis (LDA)
 
 	- Kernel PCA
-
-	- 
 
 **Part 10. Model Selection**
 
