@@ -100,8 +100,6 @@ Topics covered organised into file structure, directories with the suffix "_andy
 
 - Kernel PCA
 
-- 
-
 **Part 10. Model Selection**
 
 - Model Selection 
