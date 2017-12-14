@@ -2,15 +2,11 @@
 
 Notes, dummy data and template scripts from the Udemy Machine Learning course:
 
- - course URL: https://www.udemy.com/machinelearning/learn/v4/t/lecture/6682576?start=0
-
- - remote course data & template scripts: https://www.superdatascience.com/machine-learning/
-
  - conda3 environment (Python scripts): /home/ab/Desktop/condaenvs/py36/udemy_ML
 
 Explanation of file structure:
 
- - data/  - contains all the data outputs and inputs (mostly from https://www.superdatascience.com/machine-learning/)
- - scripts/ -contains all the scripts & template scripts provided by (https://www.superdatascience.com/machine-learning/)
+ - data/  - contains all the data outputs and inputs
+ - scripts/ -contains all the scripts & template scripts
 
 
