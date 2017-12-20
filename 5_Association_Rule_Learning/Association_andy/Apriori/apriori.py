@@ -18,8 +18,8 @@ results = apriori(transactions, min_support = 0.003, min_lift = 4, min_confidenc
 
 ## Intuition:
 # - Support(M) = #transactions inc. M / #Total transactions, i.e. M's popularity
-# - Confidence(M->N) = #Transactions with rule M->N / #transactions inc. (M)
-# - Lift(M->N) = Condifence(M->N) / support(M), i.e. how many times more M->N is observed vs. random, >1 the better
+# - Confidence(M->N) = #Transactions with rule M->N / #transactions inc. (M), i.e. reliability of the rule: 0.5 means in 50% of the transactions M is found, so is N
+# - Lift(M->N) = Condifence(M->N) / support(M), i.e. relevance of the rule: how many times more M->N is observed vs. random, >1 the better
 
 # - we decide Support(M) min to be 0.003 since 3*7/7501 is an item that is bought >3 times per day (21 times per week)
 # - we decide min confidence using trial-and-error, we start w/ depreciating value until we have a workable #rules output
