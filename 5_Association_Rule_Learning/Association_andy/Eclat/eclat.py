@@ -1,4 +1,6 @@
-# ECLAT algorithm in Python
+#############################
+# ECLAT algorithm in Python #
+#############################
 
 # Importing the libraries
 import numpy as np
@@ -29,27 +31,17 @@ def eclat(transactions_list, output_filename, min_support = 0.002):
         e.g. 0.002
     
     """
-    
-    #
-    # Per-transaction combination method (22:55)
-    #
-    
+        
     import time
-    
     t_start = time.time()
     
     combos_TO_counts = {}
-    
     for transaction in transactions:
-        
         goods = list(np.unique(transaction))    
         length = len(goods)
-        
         for k in range(2,length+1):
-            
             k_combos = list(combinations(goods, k))
-            for combo in k_combos:
-                
+            for combo in k_combos:        
                 if set(combo).issubset(transaction):                
                     try:
                         combos_TO_counts[combo] += 1
@@ -63,7 +55,6 @@ def eclat(transactions_list, output_filename, min_support = 0.002):
     # Calculate supports for combinations of goods
     #
     combo_support_vec = []
-    
     for combo in combos_TO_counts.keys():
         # NOTE: Support(M) = #transactions inc. M / #Total transactions, 
         #   i.e. M's popularity
@@ -85,26 +76,7 @@ def eclat(transactions_list, output_filename, min_support = 0.002):
                     continue
                 else:
                     fo.write(", ".join(combo)+"\t"+str(support)+"\n")
-    
     print("Completion time (seconds):"+t_duration)
-    
     return combo_support_vec
     
-    
 combos_vs_supports = eclat(transactions, "./eclat.tsv", min_support = 0.002)
-
-## Running the Apriori algorithm
-#from apyori import apriori
-#
-#results = apriori(transactions, min_support = 0.003, min_lift = 4, min_confidence = 0.2, min_length = 2)
-#
-### Intuition:
-## - Support(M) = #transactions inc. M / #Total transactions, i.e. M's popularity
-## - Confidence(M->N) = #Transactions with rule M->N / #transactions inc. (M)
-## - Lift(M->N) = Condifence(M->N) / support(M), i.e. how many times more M->N is observed vs. random, >1 the better
-#
-## - we decide Support(M) min to be 0.003 since 3*7/7501 is an item that is bought >3 times per day (21 times per week)
-## - we decide min confidence using trial-and-error, we start w/ depreciating value until we have a workable #rules output
-## - support >4 means a rule that is 4 or more times more relevant than random (1)
-#
-#results = list(results) # click on the relevant fields to find the embedded stats for each rule
