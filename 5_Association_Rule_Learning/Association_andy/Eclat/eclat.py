@@ -35,6 +35,9 @@ def eclat(transactions_list, output_filename, min_support = 0.002):
     import time
     t_start = time.time()
     
+    #
+    # Count the subsets of combinations found per transaction
+    #
     combos_TO_counts = {}
     for transaction in transactions:
         goods = list(np.unique(transaction))    
